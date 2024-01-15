@@ -3,7 +3,6 @@ import java.util.*;
 
 class student {
     int roll;
-    int sub;
     int sub1, sub2, sub3, sub4, sub5, sub6;
     int SPI;
 
