@@ -1,4 +1,4 @@
-//QB 814
+// //QB 814
 
 import java.util.Scanner;
 
@@ -12,6 +12,11 @@ class figure {
         a = sc.nextInt();
         System.out.println("Enter B");
         b = sc.nextInt();
+        // return 0;
+    }
+
+    double area() {
+        return 0;
     }
 }
 
@@ -32,8 +37,7 @@ class main {
         System.out.println("For Area of Triangle");
         triangle m1 = new triangle();
         double x = m1.area();
-        System.out.println(x);
-        System.out.println("For Area of Rectangle");
+        System.out.println("For Area of Rectangle" + x);
         rectangle m2 = new rectangle();
         double y = m2.area();
         System.out.println(y);
