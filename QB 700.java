@@ -14,10 +14,9 @@ class point {
         int b = sc.nextInt();
 
         point p2 = new point(a, b);
-        point p3 = new point();
-
-        p3.add(p1, p2);
-        p3.display();
+      
+        p2.add(p1, p2);
+        p2.display();
 
     }
 
